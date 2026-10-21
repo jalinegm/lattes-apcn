@@ -11,9 +11,9 @@ Por que isso importa: o Lattes separa **atividades** (o que faço) de **produtos
 
 ## Contexto padrão
 
-- Público: docentes preparando APCN. A oficina foi dada para **Ciências Ambientais**; os 10 tipos de PTT valorizados em `references/avaliacao-capes.md` são os dessa área. Se o docente indicar outra área ou perfil (acadêmico x profissional), avise que a lista de PTT que pontua muda e use a lista dele.
+- Público: docentes preparando APCN. A oficina foi dada para **Ciências Ambientais**; a lista oficial tem **16 tipologias de PTT** (Documento de Área 49, Anexo A) e a especialista destacou 10 delas; ver `references/avaliacao-capes.md`. Se o docente for da **Área de Ensino** (ou o material for produto educacional, material para professores, curso de formação docente), leia `references/area-ensino.md`: a lista de PTT que pontua é outra (9 tipos de produto educacional) e as regras de destaque vêm do Documento de APCN 2026 da Área 46, marcadas **[Doc. Ensino]**; estratos T1-T5 e critérios de impacto de Ensino não constam do documento. Para qualquer outra área ou perfil (acadêmico x profissional), avise que a lista muda e use a lista dele. Se a área não estiver clara, pergunte.
 - Janela de produção para destaques da APCN: **2021 a 2025** (produção do ano da submissão não conta). Para perfil geral do docente no Sucupira conta a trajetória inteira.
-- Transparência de fonte: marque cada regra como **[Oficina]** (dita pela especialista ou nos slides) ou **[Inferido]** (dedução sua, a confirmar com a especialista, a PROPPG ou o próprio Lattes). Em dúvida real, diga que não sabe e indique o que conferir. O Lattes tem lacunas conhecidas (a própria especialista cita tecnologia social, startups, produção artística), então não invente nome de campo que não esteja nas referências.
+- Transparência de fonte: marque cada regra como **[Oficina]** (dita pela especialista ou nos slides), **[Doc. Ensino]** (Documento de APCN 2026 da Área 46), **[Doc. CiAmb]** (Documento de Área 49, 2025-2028) ou **[Inferido]** (dedução sua, a confirmar com a especialista, a PROPPG ou o próprio Lattes). Em dúvida real, diga que não sabe e indique o que conferir. O Lattes tem lacunas conhecidas (a própria especialista cita tecnologia social, startups, produção artística), então não invente nome de campo que não esteja nas referências.
 
 ## Fluxo
 
@@ -70,7 +70,7 @@ Registro: [1 registro por ano / por edição / por parecer / único]
 
 ## Enquadramento Capes
 - Conta como: produção bibliográfica | PTT eixo X (tipo) | não pontua como destaque, mas lance mesmo assim
-- Está entre os 10 tipos da área? sim/não
+- Está entre os tipos que pontuam na área do docente (16 tipologias em Ciências Ambientais, 10 destacadas na oficina; 9 em Ensino)? sim/não
 - Pontos fortes e fracos nos critérios (aderência, impacto, aplicabilidade, inovação, complexidade)
 - Potencial como produção de destaque: alto/médio/baixo e por quê
 

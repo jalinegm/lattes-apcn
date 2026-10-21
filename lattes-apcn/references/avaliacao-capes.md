@@ -1,6 +1,6 @@
 # Como a Capes avalia (APCN e quadriênio 2025-2028)
 
-Fonte: Oficina Lattes (Priscila Tavares). **[Oficina]** salvo marcação **[Inferido]**. A especialista avisa que várias regras (ficha de impacto, selos de rastreabilidade, GolPG) ainda estão em implantação.
+Fontes: Oficina Lattes (Priscila Tavares) **[Oficina]** e Documento de Área Ciências Ambientais 2025-2028 **[Doc. CiAmb]**; **[Inferido]** quando marcado. A especialista avisa que várias regras (ficha de impacto, selos de rastreabilidade, GolPG) ainda estão em implantação.
 
 ## Sumário
 1. Classificação da produção
@@ -25,15 +25,42 @@ Fonte: Oficina Lattes (Priscila Tavares). **[Oficina]** salvo marcação **[Infe
 - Programa acadêmico pode indicar 5 destaques bibliográficos; programa profissional precisa de maioria em PTT de impacto.
 - Dado do Lattes que vai errado, vai errado para o Sucupira: a Capes importa dados do Lattes e o docente valida.
 
-## 2. Os 10 tipos de PTT de Ciências Ambientais
+## 2. Os tipos de PTT de Ciências Ambientais
 
-Circulados no slide da oficina: produto bibliográfico, software/app/programa, propriedade intelectual, tecnologia social, curso de formação, carta/mapa, relatório técnico, manual/protocolo, material didático, produtos/processos.
+### 2.1 Lista oficial: 16 tipologias avaliadas [Doc. CiAmb]
 
-Não circulados (lance no Lattes, mas **não** serão destaque de impacto para a área): editoração, norma/marco regulatório, acervo, organização de evento, produto de comunicação, taxonomia/ontologia/tesauro, base de dados, tradução. A fala cita ainda empresas de inovação (startups) como tipo que pontua; o slide não as mostra entre os circulados: **[Inferido]** confirmar com a especialista.
+Fonte: **Documento de Área Ciências Ambientais (Área 49), 2025-2028, Anexo A (p. 34) e item 2.2.2**. A área estratifica PTT em **T1, T2, T3, T4, T5 e TNC** e **não avalia produto que não se enquadre numa das 16 tipologias**. O programa envia o detalhamento (aderência, impacto, aplicabilidade, inovação, complexidade), justificativa, contextualização e o **produto anexado**.
+
+| | Tipologia | Inclui (resumo do Anexo A) |
+|---|---|---|
+| a | Produto bibliográfico | artigo em revista técnica ou de divulgação científica, livro ou série técnica |
+| b | Ativos de propriedade intelectual | patente depositada/concedida/licenciada, desenho industrial, indicação geográfica, marca, topografia de circuito integrado |
+| c | Tecnologia social | técnicas e metodologias desenvolvidas e/ou aplicadas com a população e apropriadas por ela, soluções de inclusão social e melhoria de vida (MCTI) |
+| d | Produto de editoração | catálogo, coletânea, enciclopédia; revista e anais organizados; catálogo de produção artística |
+| e | Material didático ou educacional | sem detalhamento |
+| f | Software/aplicativo | programa de computador |
+| g | Norma ou marco regulatório | norma ou marco elaborado, estudos de regulamentação, anteprojetos, estudos em audiência pública, sentenças arbitrais, estudos de caso e jurisprudência, peças processuais |
+| h | Relatório técnico conclusivo | relatório per se, processos de gestão, pesquisa de mercado, simulações/cenarização/jogos aplicados, valoração de tecnologia, modelo de negócio inovador, ferramenta gerencial, pareceres e notas técnicas sobre normas |
+| i | Manual/protocolo | protocolo tecnológico (ex.: POP), manual de operação técnica |
+| j | Acervo | curadoria de mostras e exposições, acervos produzidos, coleções biológicas |
+| k | Cultivar | sem detalhamento |
+| l | Carta, mapa ou similar | sem detalhamento |
+| m | Produtos/processos em sigilo | impacto declarado, interesse declarado do setor empresarial, contratos de transferência de tecnologia |
+| n | Taxonomia, ontologias e tesauros | sem detalhamento |
+| o | Empresa ou organização social inovadora | sem detalhamento |
+| p | Processo/tecnologia e produto/material não patenteável | sem detalhamento |
+
+**Fora das 16** (portanto não avaliados nesta área): organização de evento, produto de comunicação (rádio, TV, campanha), base de dados, tradução, curso de formação como tipo próprio, rede social. Lance no Lattes para o perfil do docente, mas não conte com eles como produto de destaque. **[Inferido]** onde o Anexo A não os cita: o curso de formação aparece como "circulado" na oficina e não está nomeado no Anexo A; conferir com a especialista se entra em "Material didático ou educacional" ou outra tipologia.
+
+### 2.2 Os 10 destacados na oficina [Oficina]
+
+Dentre as 16, a especialista circulou no slide: produto bibliográfico, software/app/programa, propriedade intelectual, tecnologia social, curso de formação, carta/mapa, relatório técnico, manual/protocolo, material didático, produtos/processos.
+
+Não circulados (lance no Lattes, mas a especialista não os trata como destaque de impacto): editoração, norma/marco regulatório, acervo, organização de evento, produto de comunicação, taxonomia/ontologia/tesauro, base de dados, tradução. Pelo Anexo A, os quatro últimos (evento, comunicação, base de dados, tradução) nem estão entre as 16 tipologias avaliadas, exceto taxonomia. A fala cita ainda empresas de inovação (startups) como tipo que pontua; o slide não as mostra entre os circulados: **[Inferido]** confirmar com a especialista.
 
 Advertência da especialista: se o grupo não tem pelo menos 3 produções dessas de impacto por docente para indicar, Ciências Ambientais pode não ser a melhor área; outras (ex.: planejamento urbano) podem acolher melhor o perfil.
 
-Para outras áreas (ensino, interdisciplinar etc.) o conjunto muda; na Interdisciplinar, todos os tipos são possíveis, segundo a especialista.
+Para a Área de Ensino ver `area-ensino.md`. Para outras áreas (interdisciplinar etc.) o conjunto muda; na Interdisciplinar, todos os tipos são possíveis, segundo a especialista.
 
 ## 3. Critérios de avaliação do PTT e estratos
 
