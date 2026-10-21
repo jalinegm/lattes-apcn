@@ -86,7 +86,7 @@ Converse normalmente e anexe o material (PDF, DOCX, imagem), cole o link ou desc
 - "Quero dar uma oficina de 6 h para a Secretaria de Meio Ambiente. Como planejo e cadastro?"
 - "Classifique esta lista de produções no Lattes" (cole a lista)
 
-Se o material puder ir para mais de um menu, a skill faz perguntas antes de recomendar. Cada regra vem marcada como **[Oficina]** (dita pela especialista) ou **[Inferido]** (confirme com a especialista, a PROPPG ou na tela do Lattes).
+Se o material puder ir para mais de um menu, a skill faz perguntas antes de recomendar. Cada regra vem marcada como **[Oficina]** (dita pela especialista), **[Doc. CiAmb]** (Documento de Área 49, Ciências Ambientais), **[Doc. Ensino]** (Documento de APCN 2026 da Área 46, Ensino) ou **[Inferido]** (confirme com a especialista, a PROPPG ou na tela do Lattes).
 
 No Codex, se a skill não for escolhida sozinha, comece a mensagem com `$lattes-apcn`.
 
@@ -101,4 +101,4 @@ No Codex, se a skill não for escolhida sozinha, comece a mensagem com `$lattes-
 
 ## Limites
 
-Não acessa nem edita seu Lattes: só orienta. Nomes de menus do Lattes mudam; confira na tela. A lista de produções técnicas que pontuam é a de **Ciências Ambientais**.
+Não acessa nem edita seu Lattes: só orienta. Nomes de menus do Lattes mudam; confira na tela. Cobre as listas de produções técnicas de **Ciências Ambientais** (16 tipologias de PTT) e da **Área de Ensino** (9 tipos de produto educacional). Para outras áreas, a skill avisa que a lista muda.
