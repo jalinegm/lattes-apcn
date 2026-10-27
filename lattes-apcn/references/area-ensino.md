@@ -1,6 +1,6 @@
 # Área de Ensino (Capes, Área 46): regras para APCN
 
-Fonte: **Documento Orientador de APCN 2026, Colégio de Ciências Exatas, Tecnológicas e Multidisciplinar, Área 46 Ensino** (PDF `Ensino-APCN.pdf`, seções 4.1 e 4.2). Regras citadas daqui levam a marca **[Doc. Ensino]**. A oficina da Priscila (Ciências Ambientais) não tratou de Ensino; a lista de CiAmb vem do Documento de Área 49 **[Doc. CiAmb]**; o que não está no documento é **[Inferido]**.
+Fonte: **Documento Orientador de APCN 2026, Colégio de Ciências Exatas, Tecnológicas e Multidisciplinar, Área 46 Ensino** (PDF `Ensino-APCN.pdf`, seções 4.1 e 4.2). Regras citadas daqui levam a marca **[Doc. Ensino]**. Complemento: **Oficina Lattes de 26 out 2026 (Área 46 — Ensino)**, marcada **[Oficina 26 out]**, e `ensino.md` para os menus operacionais de ensino, formação, cursos e EBTT/EPT. A oficina de 15 out (Ciências Ambientais) não tratou de Ensino; a lista de CiAmb vem do Documento de Área 49 **[Doc. CiAmb]**; o que não está no documento nem na oficina é **[Inferido]**.
 
 ## Sumário
 1. Como a Área 46 trata produção
@@ -12,6 +12,7 @@ Fonte: **Documento Orientador de APCN 2026, Colégio de Ciências Exatas, Tecnol
 7. Como aplicar no Lattes
 8. Perguntas ao docente de Ensino
 9. O que o documento não diz
+10. O que a oficina de 26 out acrescenta
 
 ## 1. Como a Área 46 trata produção
 
@@ -35,7 +36,7 @@ Fonte: **Documento Orientador de APCN 2026, Colégio de Ciências Exatas, Tecnol
 | viii | **Manual/protocolo** | Guia de instruções, protocolo tecnológico experimental, adequação tecnológica, manual de gestão, de normas e procedimentos |
 | ix | **Carta, mapa ou similar** | Sem detalhamento no documento |
 
-Atenção: um resumo de programa da UFMT sobre a Ficha 2025 lista **relatório técnico** entre 10 tipos; o Documento de APCN 2026 lista só os 9 acima. Na dúvida, trate relatório técnico como **[Inferido]**: lance no Lattes, mas não o escolha como produto de destaque sem confirmar com a coordenação.
+Atenção: um resumo de programa da UFMT sobre a Ficha 2025 lista **relatório técnico** entre 10 tipos; o Documento de APCN 2026 lista só os 9 acima. A oficina de 26 out também cita **relatórios técnicos** na lista de produtos que a Área 46 acolhe [Oficina 26 out], mas não os detalha como tipo de destaque. Na dúvida, trate relatório técnico como **[Inferido]**: lance no Lattes, mas não o escolha como produto de destaque sem confirmar com a coordenação.
 
 ## 3. Produções de destaque: números [Doc. Ensino]
 
@@ -92,7 +93,7 @@ Docente de Ensino que organizou olimpíada, feira ou mostra, mantém acervo ou p
 
 ## 7. Como aplicar no Lattes
 
-1. Identifique o produto e encaixe em um dos 9 tipos. Dirigido a estudantes e população, pense em Educação e Popularização de C&T; dirigido a professores e profissionais de ensino, o tipo i-ix decide o menu (ver `menus-e-tipos-de-produto.md`). **[Inferido]** o nome exato do campo no Lattes para cada tipo; conferir na tela.
+1. Identifique o produto e encaixe em um dos 9 tipos (ou relatório técnico, se confirmado). Dirigido a estudantes e população, pense em Educação e Popularização de C&T; dirigido a professores e profissionais de ensino, o tipo i-ix decide o menu (ver `menus-e-tipos-de-produto.md` e `ensino.md`). Para **produtos e processos educacionais**, use **Produções > Produção técnica > Processos ou técnicas**, natureza **Pedagógica** **[Inferido]**; a fala da oficina de 26 out descreve "Produtos e Processos > Análise Educacional", rótulo que não corresponde à tela (ver `ensino.md` seção 7.2). Para os demais tipos, **[Inferido]** o nome exato do campo no Lattes; conferir na tela.
 2. Registre **aplicação e validação**: escola, turmas, nº de estudantes e professores, período, instrumento de avaliação, resultado.
 3. Dê rastreabilidade: repositório (EduCAPES, Zenodo), link estável, ISBN/ISSN/DOI quando houver, licença aberta (ver `rastreabilidade-e-identificadores.md`). O documento exige que o destaque esteja **disponível para avaliação**.
 4. Em "Outras informações": financiamento, parceria com rede de ensino, replicações, adoção, aderência à linha e ao projeto estruturante.
@@ -111,4 +112,18 @@ Docente de Ensino que organizou olimpíada, feira ou mostra, mantém acervo ou p
 
 ## 9. O que o documento não diz
 
-O Documento Orientador de APCN **não traz** estratos T1-T5, critérios de impacto detalhados (aderência/impacto/aplicabilidade/inovação/complexidade) nem pesos do quesito Impacto da avaliação quadrienal para Ensino. Esses critérios em `avaliacao-capes.md` vêm da oficina de Ciências Ambientais: use-os só como **referência [Inferido]** e avise o docente. Confirmar na Ficha de Avaliação da Área 46 ou com a coordenação (46.ensi@capes.gov.br).
+O Documento Orientador de APCN **não traz** estratos, critérios de impacto detalhados (aderência/impacto/aplicabilidade/inovação/complexidade) nem pesos do quesito Impacto da avaliação quadrienal para Ensino. A oficina de 26 out supre parte disso: informa os cinco critérios, pesos **25% / 25% / 50%** no Quesito 3 e cita **estratos T1 a T3** no subitem de produção técnica destacada envolvendo discentes (PTT vinculados a dissertações/teses), não como regra geral [Oficina 26 out] (ver `ensino.md` seções 8.3 e 13). Os critérios T1-T5 e 30/30/40 de `avaliacao-capes.md` são de **Ciências Ambientais**; não transportar para Ensino. Confirmar na Ficha de Avaliação da Área 46 ou com a coordenação (46.ensi@capes.gov.br).
+
+## 10. O que a oficina de 26 out acrescenta
+
+A oficina não substitui o Documento de APCN 2026; ela traduz a rotina do Lattes e a leitura da área [Oficina 26 out]. Acrescenta:
+
+- **Prioridade a produtos e processos educacionais** (planos, PPC/PPP, normas, metodologias, processos de gestão pedagógica), com caminho **Produções > Produção técnica > Processos ou técnicas**, natureza **Pedagógica** **[Inferido]** (a fala diz "Produtos e Processos > Análise Educacional"; conferir na tela).
+- **Disciplina é atividade de Ensino**; aula avulsa/módulo é produto em Curso de curta duração; “professor convidado” não é vínculo.
+- **Orientação e banca** no menu Formação, um registro por aluno/banca; **supervisão** de IC, monitoria, estágio e tutoria é Treinamento; **Estágio** é de quem realiza.
+- **Curso ministrado, organizado e criado são produtos distintos**; curso FIC presencial pode ser comprovado pela página institucional, e os subprodutos vão para repositório.
+- **Material didático com menos de 50 páginas**; material da própria disciplina não conta; livros de educação/popularização podem ir a Educação e Popularização.
+- **A oficina cita relatório técnico** entre os produtos da área, mas o Documento de APCN 2026 lista 9 tipos sem ele; ver seção 2.
+- **EBTT/EPT**: nomenclatura da instituição, classe e número, portaria, atividades atravessando a progressão, multicampi como mesma instituição, não doutores fora da equipe de pesquisa.
+
+O detalhamento operacional, exemplos e erros comuns estão em `ensino.md`.

@@ -1,6 +1,6 @@
 # Atividades: Atuação e Projetos
 
-Fonte: Oficina Lattes (Priscila Tavares). Marcações: **[Oficina]** (padrão) e **[Inferido]**.
+Fontes: Oficinas Lattes (Priscila Tavares, 15 out e 26 out 2026). Marcações: **[Oficina]** (15 out), **[Oficina 26 out]** (Ensino/Área 46) e **[Inferido]**. Para o detalhamento de ensino — disciplina, orientação, banca, supervisão, monitoria, curso, material didático e EBTT/EPT — ver `ensino.md`.
 
 ## Sumário
 1. Lógica atividade x produto
@@ -44,6 +44,7 @@ Fluxo: instituição → vínculo/enquadramento → atividades. Os dados são cr
 
 - **Vínculo:** relação formal (servidor público, celetista, professor visitante, bolsista, outro: colaborador, discente).
 - **Enquadramento:** cargo/função como no contracheque (adjunto I-IV, associado, titular, cargo administrativo, pós-doutorando, graduando/mestrando/doutorando, estagiário, visitante sênior). Categorias **não são** as dos PPGs.
+- **EBTT:** usar a nomenclatura da instituição — classe A, B, C ou D e número —, registrar a progressão em blocos e citar a **portaria** em informações adicionais. As atividades atravessam a progressão; não abrir nova atividade de ensino a cada classe. Para a Capes, todos os campi do instituto federal são a mesma instituição [Oficina 26 out].
 - **Registre a trajetória, não só o estado atual.** Progressão vira blocos fechados e novos (Adjunto 1 de 2011 a 2013, depois Adjunto 2...). Não sobreponha, não deixe "servidor" repetido com cada função. Docente em outra instituição: vínculo "outro: colaborador", enquadramento "docente".
 - Passado de aluno (mestrando, doutorando) também entra, com a linha de pesquisa daquela época.
 - Atividade termina quando o vínculo termina; não deixe "em andamento".
@@ -54,13 +55,13 @@ Fluxo: instituição → vínculo/enquadramento → atividades. Os dados são cr
 |---|---|
 | Direção e administração | Coordenação, reitoria, pró-reitoria, chefia, coordenação de programa |
 | Pesquisa e desenvolvimento | Exige linha de pesquisa do **programa**; só preencher quando o curso estiver aprovado (hoje só as linhas do mestrado/doutorado do próprio docente) |
-| Ensino | Disciplinas em que você é o **responsável** (código, carga horária). Aula convidada não é atividade de ensino: é produto |
-| Estágio | Pós-doutorado, preceptoria recebida |
+| Ensino | Disciplinas em que você é o **responsável** (código, carga horária). Aula convidada, aula avulsa e módulo não são atividade de ensino: são produto (Curso de curta duração) [Oficina 26 out] |
+| Estágio | Pós-doutorado, estágio docente, IC/extensão realizados, preceptoria recebida. É a atividade de **quem faz** o estágio; quem supervisiona vai em Treinamento [Oficina 26 out] |
 | Serviço técnico especializado | Função profissional técnica (biólogo, antropólogo, administrador) |
-| Extensão universitária | Projetos, cursos e eventos de extensão |
-| Treinamento | Orientações, supervisões, tutorias, monitoria, preceptoria que você realiza, supervisão de pós-doc |
+| Extensão universitária | Projetos, cursos e eventos de extensão; cada oferta/edição é produto |
+| Treinamento | Orientações (também no menu Orientações, um por aluno), supervisão de IC/estágio/monitoria/tutoria/preceptoria, supervisão de pós-doc [Oficina 26 out] |
 | Outra atividade técnico-científica | Projetos de pesquisa que coordena/participa, grupos do diretório do CNPq, laboratórios, núcleos, projeto estruturante do programa |
-| Conselhos, comissões e consultoria | Comissão de elaboração da APCN, progressão funcional, seleção, comitê de ética, conselho universitário; no Sucupira: planejamento estratégico/autoavaliação e comissão de bolsas (mínimas) |
+| Conselhos, comissões e consultoria | Comissão de elaboração da APCN, progressão funcional, seleção, comitê de ética, conselho universitário, NDE, colegiado, GT, revisão de PPC/estrutura curricular; no Sucupira: planejamento estratégico/autoavaliação e comissão de bolsas (mínimas) [Oficina 26 out] |
 
 Comprovação: portarias, boletins de serviço, DOU.
 

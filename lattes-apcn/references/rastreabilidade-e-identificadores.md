@@ -1,6 +1,6 @@
 # Rastreabilidade, plataformas e identificadores
 
-Fonte: Oficina Lattes (Priscila Tavares). **[Oficina]** salvo marcação **[Inferido]**.
+Fontes: Oficinas Lattes (Priscila Tavares, 15 out e 26 out 2026). **[Oficina]** salvo **[Oficina 26 out]** ou **[Inferido]**. Casos de ensino e FIC em `ensino.md`.
 
 ## Sumário
 1. Por que rastrear
@@ -26,6 +26,10 @@ Para PTT, há uma segunda dimensão: **comprovar o uso**. Em vez de "produzimos 
 - Livros e capítulos: pacote mínimo de comprovação (ver `menus-e-tipos-de-produto.md`).
 - Relatório de pesquisa: registre sempre; prova a prestação de contas de dinheiro público.
 - Pareceres: não identificar o trabalho avaliado; usar código desidentificador.
+- **Curso FIC presencial:** se já está registrado na instituição (SISTEC, resolução, portaria), o curso em si não precisa estar depositado; comprove com a página/notícia institucional e deposite os **subprodutos** (cartilha, manual, metodologia) [Oficina 26 out].
+- **Software/aplicativo:** URL pública na loja (Google Play) vale como rastreabilidade; a data que vale é a de criação, não a do registro [Oficina 26 out].
+- **PTT que não decorre de dissertação/tese:** não precisa de banca, mas precisa de registro e disponibilidade pública; PTT de dissertação/tese precisa de banca [Oficina 26 out] (ver a tensão com o texto literal do slide em `ensino.md` seção 13).
+- **Produto/processo educacional:** deposite em repositório ou página do programa; se for vinculado à dissertação, a banca é a validação.
 
 Se o produto ainda não tem link: **crie** (EduCAPES/Zenodo). O ano que vale é o ano da produção, não o do upload.
 
@@ -37,7 +41,7 @@ Se o produto ainda não tem link: **crie** (EduCAPES/Zenodo). O ano que vale é 
 | Bom para | Cartilhas, vídeos, maquetes, mapas, materiais de formação | Relatórios técnicos, processos/técnicas, reuniões e visitas técnicas, conjuntos de dados, produção científica e técnica |
 | Identificador | URL permanente | **DOI** por registro, gratuito |
 | Integração | Capes e repositórios educacionais (na UFF alimenta o sistema institucional) | ORCID, OpenAIRE, GitHub, DataCite |
-| Observações | Plataforma da Capes criada no quadriênio anterior | Circulação internacional; permite versão em outro idioma (cartilha ou vídeo legendado em inglês) como produto de internacionalização; proteção de direitos autorais, pode restringir acesso |
+| Observações | Plataforma da Capes criada no quadriênio anterior. A transcrição automática da oficina de 26 out registra "Eduplay"; o slide usa **EduCAPES** — tratar como EduCAPES até confirmação | Circulação internacional; permite versão em outro idioma (cartilha ou vídeo legendado em inglês) como produto de internacionalização; proteção de direitos autorais, pode restringir acesso |
 
 Cada pesquisador faz seu cadastro (login e senha). Endereçar o produto à instituição e, após a aprovação do curso, ao **programa**. Alternativas: repositório institucional, site do programa, observatório do grupo.
 
@@ -74,3 +78,5 @@ ORCID resolve homônimos: a busca por nome mistura currículos; por ORCID não.
 6. Há evidência de uso/impacto (quem usou, quantas pessoas, citações, visualizações)?
 7. ORCID e ID Lattes do docente estão vinculados?
 8. Instituição (e programa, depois da aprovação) está endereçada no registro?
+9. Se é PTT de dissertação/tese, há banca e validação? Se não é, há registro e acesso público? [Oficina 26 out]
+10. Se é curso FIC presencial, o curso está comprovado pela página institucional e os subprodutos estão depositados? [Oficina 26 out]
