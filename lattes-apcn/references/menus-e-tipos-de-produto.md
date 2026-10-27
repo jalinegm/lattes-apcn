@@ -1,6 +1,6 @@
 # Menus do Lattes e tipos de produto
 
-Fonte: Oficina Lattes (Priscila Tavares, 15 out 2026), transcrição e slides. Tudo é **[Oficina]** salvo onde marcado **[Inferido]**.
+Fontes: Oficinas Lattes (Priscila Tavares, 15 out e 26 out 2026), transcrições e slides. Tudo é **[Oficina]** (15 out) salvo **[Oficina 26 out]** ou **[Inferido]**. Para os menus e distinções específicas de ensino — disciplina, orientação, banca, supervisão, curso, material didático, produto/processo educacional e EBTT/EPT — ver `ensino.md`.
 
 ## Sumário
 1. Mapa dos menus
@@ -69,6 +69,8 @@ Caminho geral: **Produções > Produção técnica > [tipo]**. Eixos da Capes: 1
 | Rede social, blog, site | 3 | A página como produto. | Um registro por ano de existência. Cada conteúdo autoral hospedado nela é lançado no seu tipo (cartilha → material didático; vídeo/entrevista → mídia). **Ciências Ambientais não pontua** rede social; outras áreas sim. Quem só aparece num conteúdo de aluno sem participar não lança. |
 | Cartas, mapas, manuais, protocolos, base de dados, acervo, tradução | 1 | Existem na lista de 21 PTT da Capes. | **[Inferido]** O nome exato do campo no Lattes para carta/mapa, manual/protocolo e base de dados não foi mostrado na oficina; conferir no menu. Tradução não é reconhecida como produto de impacto em Ciências Ambientais. |
 
+Para a **Área 46 (Ensino)**, planos, PPC/PPP, normas e processos educacionais vão em **Produções > Produção técnica > Processos ou técnicas**, natureza **Pedagógica** **[Inferido]**, e a área **prioriza produtos e processos educacionais** [Oficina 26 out]. A fala descreve "Produtos e Processos > Análise Educacional", rótulo que não corresponde à tela; ver `ensino.md` seção 7.2. Material didático da própria disciplina não conta; curso ministrado, organizado e criado são produtos distintos [Oficina 26 out].
+
 ## 5. Educação e Popularização de C&T
 
 Menu próprio criado pelo CNPq (cerca de 2014-2017) para produtos com linguagem acessível ao público não acadêmico. Replica os tipos de produção técnica. Submenus citados na oficina: **Curso de curta duração ministrado**, **Desenvolvimento de material didático ou instrucional**, **Texto em jornal ou revista**, **Entrevistas, mesas redondas, programas e comentários na mídia**, **Organização de evento**. Regras:
@@ -98,7 +100,7 @@ Menu para tudo que se faz em evento acadêmico, profissional ou científico: par
 - **Financiamento de passagem/diária:** informar (uso de dinheiro público tem que aparecer).
 - **Exceção:** minicurso e oficina ministrados em evento vão em Produções > Produção técnica > Curso de curta duração ministrado, senão a plataforma não coleta.
 - Reunião do grupo de pesquisa não é evento; para virar evento, formalize como projeto de extensão.
-- Organização de evento **não é produto de destaque** para a Capes, mas é evidência de que o grupo trabalha junto.
+- Em **Ciências Ambientais**, organização de evento **não é produto de destaque**; na **Área 46 (Ensino)**, está na lista de tipos e pode ser destaque se aderente. Em ambas, é evidência de que o grupo trabalha junto. [Oficina; Oficina 26 out]
 
 ## 8. Casos que confundem (consulta rápida)
 
@@ -108,6 +110,14 @@ Menu para tudo que se faz em evento acadêmico, profissional ou científico: par
 | Apresentei trabalho com alunos num congresso | Eventos > participação > apresentação de trabalho |
 | Dei minicurso num congresso | Produção técnica > Curso de curta duração ministrado |
 | Aula pontual na disciplina de colega | Curso de curta duração ministrado (≥ 4 h?), título da aula |
+| Sou o responsável pela disciplina | Atividade > Ensino, com órgão/unidade; aula avulsa é produto [Oficina 26 out] |
+| Oriento aluno de IC/TCC/mestrado | Formação > Orientações, um registro por aluno, vinculado ao projeto |
+| Participo de banca | Formação > Bancas (formação indireta) |
+| Supervisiono IC, monitoria, estágio ou tutoria | Atividade > Treinamento; não usar Estágio [Oficina 26 out] |
+| Faço estágio docente, IC ou pós-doc | Atividade > Estágio; é a atividade de quem realiza |
+| Organizei um curso de 40 h e ministrei um módulo de 10 h | Dois produtos: organização (40 h) e docência (10 h) |
+| Elaborei PPC/PPP ou plano de curso | Produção técnica > Processos ou técnicas, natureza Pedagógica [Inferido; a fala diz "Análise Educacional"] |
+| Produzi material só para minha disciplina | Não conta como material didático/PTT [Oficina 26 out] |
 | Parecer para revista | Atividade: Atuação > Revisor de periódico (equipe de revisão/avaliadores, não ad hoc). Produto: Trabalhos técnicos, um por parecer |
 | Avaliei edital de bolsa de agência/instituto | Atividade: Atuação > Revisor de projeto de agência de fomento. Produto: um por edital avaliado, com agência e ano |
 | Comitê interno do IF que avalia projetos | Atuação profissional > Conselhos, comissões e consultoria; pareceres em Trabalhos técnicos. Não é revisor de agência |
@@ -125,4 +135,5 @@ Menu para tudo que se faz em evento acadêmico, profissional ou científico: par
 - Rede social/blog: **um por ano** de existência.
 - Parecer: **um por artigo/projeto**, com código desidentificador.
 - Aula convidada: **uma por aula**.
+- Orientação: **um registro por aluno**; banca: **um por participação** [Oficina 26 out].
 - Sem códigos distintos, o Sucupira trata nomes iguais como produção duplicada e bloqueia os demais.

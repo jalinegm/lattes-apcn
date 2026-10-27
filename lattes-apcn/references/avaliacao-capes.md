@@ -60,7 +60,7 @@ Não circulados (lance no Lattes, mas a especialista não os trata como destaque
 
 Advertência da especialista: se o grupo não tem pelo menos 3 produções dessas de impacto por docente para indicar, Ciências Ambientais pode não ser a melhor área; outras (ex.: planejamento urbano) podem acolher melhor o perfil.
 
-Para a Área de Ensino ver `area-ensino.md`. Para outras áreas (interdisciplinar etc.) o conjunto muda; na Interdisciplinar, todos os tipos são possíveis, segundo a especialista.
+Para a Área de Ensino ver `area-ensino.md` (regras do Doc. APCN 2026) e `ensino.md` (menus, formação, cursos, produtos educacionais e oficina de 26 out). Para outras áreas (interdisciplinar etc.) o conjunto muda; na Interdisciplinar, todos os tipos são possíveis, segundo a especialista.
 
 ## 3. Critérios de avaliação do PTT e estratos
 
@@ -77,6 +77,8 @@ Cada PTT dos tipos da área recebe avaliação qualitativa e é estratificado em
 Qualitativo de produção intelectual também considera: contribuição para políticas públicas, capacitação e formação, transferência de tecnologia/conhecimento, ODS da Agenda 2030, premiações e financiamentos. Tudo isso precisa ser **escrito** em "Outras informações" no Lattes e na ficha de destaque.
 
 Um mapa excelente pode virar T5 se não houver impacto, aplicabilidade, inovação e complexidade defendidos e comprovados.
+
+Na **Área 46 (Ensino)**, a oficina de 26 out usa os mesmos cinco critérios e cita **estratos T1 a T3** só no subitem de produção técnica destacada envolvendo discentes (PTT vinculados a dissertações/teses); ver `ensino.md` seções 8.3 e 13. A estratificação T1-T5 com T4/T5 glosados acima é de **Ciências Ambientais**; não transportar sem confirmar.
 
 ## 4. Impacto: o que mudou
 
@@ -126,3 +128,5 @@ Também: replicável, acessível, baixo custo, sustentabilidade, autogestão, in
 | 3.3 Impactos para a sociedade | 40% | Houve mudança comprovável? (5 casos de sucesso para PPG acadêmico) |
 
 Artigo pago (sem acesso aberto) e PTT sem rastreio prejudicam o item 3.1.
+
+Os pesos acima são de **Ciências Ambientais**. Na **Área 46 (Ensino)**, a oficina de 26 out informa **25% / 25% / 50%**, com **10 produções** no item 3.2 e até **6 ações de sucesso** no 3.3 [Oficina 26 out]. Ver `ensino.md` e `area-ensino.md`; não misturar as áreas.
