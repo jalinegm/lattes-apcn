@@ -1,10 +1,18 @@
 # Skill "lattes-apcn": onde cadastrar no Lattes
 
-Ajuda você a descobrir **em qual menu do Lattes** lançar uma produção ou ideia (cartilha, curso, parecer, evento, projeto etc.), como a Capes enxerga o item e o que falta para ele contar na APCN. Baseada na Oficina Lattes da Profa. Priscila Tavares (15 out 2026).
+Ajuda com o Currículo Lattes para APCN nas áreas de **Ensino** e **Ciências Ambientais**. Serve a qualquer docente dessas áreas. Ao acionar a skill, você escolhe entre três opções:
 
-**Baixando deste repositório:** clique em **Code > Download ZIP** (é preciso ter acesso ao repositório privado), extraia e siga o caso A. Onde o texto diz `lattes-apcn-instalador.zip`, use este ZIP. Para o Claude.ai (caso B), compacte a pasta `lattes-apcn` em um ZIP (a pasta com `SKILL.md` deve ficar na raiz do ZIP).
+1. **Enviar um material para análise:** em qual menu do Lattes lançar uma produção, atividade ou ideia (cartilha, curso, parecer, evento, projeto, disciplina, orientação, banca etc.), como a Capes enxerga o item e o que falta para ele contar.
+2. **Criar o XML para importação no Lattes:** você envia o currículo e o que falta lançar, mesmo uma pasta inteira de comprovantes; a skill separa o que já está lá, monta um plano e, com a sua aprovação, gera o arquivo.
+3. **Analisar o currículo:** o quanto ele é aderente à área e o que deveria ser corrigido. Servidor federal também pode enviar o **Assentamento Funcional Digital** (SouGov.br > Serviços Disponíveis > Todos os Serviços > Assentamento Funcional Digital > caixinha "Selecionar todos para baixar", que gera um único `.zip`): a skill aproveita só portarias, progressões e promoções para o vínculo. Se as progressões não aparecerem no arquivo, procure a Gestão de Pessoas do seu campus. Essa leitura usa o pacote `pypdf`.
 
-Escolha o seu caso:
+As opções 2 e 3 usam o XML do Lattes e precisam de **Python** no computador, salvo no Claude.ai, que já o traz.
+
+Baseada nas Oficinas Lattes da Profa. Priscila Tavares (Ciências Ambientais, 15 out 2026; Ensino/Área 46, 26 out 2026).
+
+**Já tem a skill?** Veja [como atualizar](COMO-ATUALIZAR.md). No Windows, são dois cliques em um arquivo.
+
+Para instalar pela primeira vez, baixe os arquivos da [última versão](https://github.com/jalinegm/lattes-apcn/releases/latest) e escolha o seu caso:
 
 - [A. Uso o **Claude Code** ou o **Codex**](#a-claude-code-ou-codex-instalador-automático) (instalador de dois cliques)
 - [B. Uso o **Claude.ai** (site ou app)](#b-claudeai-site-ou-app)
@@ -23,7 +31,7 @@ O mesmo instalador serve para os dois. Ele copia a skill para as pastas que cada
    Importante: extraia a pasta inteira. Não execute de dentro do ZIP.
 3. Abra a pasta extraída e dê **dois cliques** em `INSTALAR-Windows.bat`.
 4. Se o Windows mostrar "O Windows protegeu o computador", clique em **Mais informações** e depois em **Executar assim mesmo**. O arquivo só copia pastas; você pode abri-lo no Bloco de Notas para conferir.
-5. Aparecerão três linhas com `OK:`. Aperte qualquer tecla para fechar.
+5. Aparecerão duas linhas com `OK:` e a conferência do Python. Se perguntar sobre instalar o Python, digite **S**. Aperte qualquer tecla para fechar.
 6. **Feche e abra de novo** o Claude Code ou o Codex.
 
 ### Mac ou Linux
@@ -37,7 +45,7 @@ O mesmo instalador serve para os dois. Ele copia a skill para as pastas que cada
 
 ### Para atualizar
 
-Baixe a versão nova e rode o instalador de novo. Ele substitui a versão antiga.
+Siga [COMO-ATUALIZAR.md](COMO-ATUALIZAR.md).
 
 ### Como conferir que funcionou
 
@@ -80,13 +88,20 @@ Use se o instalador não rodar (computador institucional bloqueado, por exemplo)
 
 ## Como usar
 
-Converse normalmente e anexe o material (PDF, DOCX, imagem), cole o link ou descreva a ideia:
+Acione a skill e escolha uma opção no menu, ou diga direto o que quer. Para a opção 1, anexe o material (PDF, DOCX, imagem), cole o link ou descreva a ideia:
 
 - "Onde cadastro essa cartilha no meu Lattes?" (com o PDF anexado)
 - "Quero dar uma oficina de 6 h para a Secretaria de Meio Ambiente. Como planejo e cadastro?"
+- "Sou responsável pela disciplina X e dou um módulo avulso em outro curso. Onde lanço?"
+- "Oriento três alunos de IC e participo de bancas. Como registro?"
+- "Coordeno um curso FIC e produzi uma cartilha. O que vai para repositório?"
 - "Classifique esta lista de produções no Lattes" (cole a lista)
+- "Gere o XML para importar no Lattes com o que está nesta pasta" (com o ZIP do currículo)
+- "Meu currículo serve para a APCN de Ensino? O que corrijo?" (com o ZIP do currículo)
 
-Se o material puder ir para mais de um menu, a skill faz perguntas antes de recomendar. Cada regra vem marcada como **[Oficina]** (dita pela especialista), **[Doc. CiAmb]** (Documento de Área 49, Ciências Ambientais), **[Doc. Ensino]** (Documento de APCN 2026 da Área 46, Ensino) ou **[Inferido]** (confirme com a especialista, a PROPPG ou na tela do Lattes).
+O XML do Lattes traz CPF, documentos e endereço. A skill lê o arquivo por um script que descarta esses dados, mas o arquivo fica no ambiente em que você a usa. Antes de importar, guarde o ZIP original como cópia de segurança e importe primeiro o arquivo de teste, com um item só.
+
+Se o material puder ir para mais de um menu, a skill faz perguntas antes de recomendar. Cada regra vem marcada como **[Oficina]** (15 out), **[Oficina 26 out]** (Ensino/Área 46), **[Doc. Ensino]** ou **[Inferido]** (confirme com a especialista, a PROPPG ou na tela do Lattes).
 
 No Codex, se a skill não for escolhida sozinha, comece a mensagem com `$lattes-apcn`.
 
@@ -101,4 +116,4 @@ No Codex, se a skill não for escolhida sozinha, comece a mensagem com `$lattes-
 
 ## Limites
 
-Não acessa nem edita seu Lattes: só orienta. Nomes de menus do Lattes mudam; confira na tela. Cobre as listas de produções técnicas de **Ciências Ambientais** (16 tipologias de PTT) e da **Área de Ensino** (9 tipos de produto educacional). Para outras áreas, a skill avisa que a lista muda.
+Área de concentração e linhas de cada APCN vêm dos rascunhos de nov 2026 e podem mudar. Não acessa nem edita seu Lattes: orienta e prepara arquivos, e quem importa e salva é você. **A importação do XML ainda não foi confirmada por nós no Lattes:** o arquivo segue a DTD do CNPq, mas só o Lattes confirma o aceite. Importar acrescenta itens e não corrige os existentes. Produtos técnicos, atuação, projetos e formação não têm relato público de importação. Nomes de menus do Lattes mudam; confira na tela. A lista de produções técnicas de **Ciências Ambientais** vem da oficina e do Documento de Área 49 (16 tipologias); a de **Ensino** vem do Documento de APCN 2026 da Área 46 (9 tipos de produto educacional, regras de destaque) e da oficina de 26 out (que também cita relatório técnico e prioriza produtos/processos educacionais). A oficina de 26 out informa T1-T3 e pesos 25/25/50 no Quesito 3, mas há ambiguidades entre slide e transcrição; elas estão marcadas em `references/ensino.md` seção 13.
