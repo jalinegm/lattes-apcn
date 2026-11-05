@@ -1,13 +1,61 @@
 ---
 name: lattes-apcn
-description: Orienta docentes sobre ONDE e COMO cadastrar no Currículo Lattes uma produção, atividade ou ideia (artigo, livro, cartilha, curso, oficina, parecer, relatório técnico, evento, live, projeto, comissão, tecnologia social, software, ONG, disciplina, orientação, banca, monitoria, supervisão de estágio, curso FIC, material didático, produto educacional etc.), com enquadramento na avaliação Capes (produção bibliográfica x PTT, eixos 1-4, aderência, impacto, rastreabilidade). Baseada nas Oficinas Lattes da Profa. Priscila Tavares (Ciências Ambientais, 15 out 2026; Ensino/Área 46, 26 out 2026) para a preparação de APCN. Use sempre que o docente anexar ou descrever um material, link, certificado, portaria ou lista de produções e perguntar "onde lanço isso no Lattes?", "como cadastro?", "isso conta como produção técnica?", "em qual menu entra?", "isso é PTT?", ou pedir revisão/atualização do Lattes para APCN, Sucupira ou avaliação quadrienal, mesmo que não cite a palavra Lattes. Inclui casos de ensino, EBTT/EPT, formação (orientações e bancas) e produtos educacionais da Área 46.
+description: Ajuda docentes com o Currículo Lattes para APCN nas áreas de Ensino ou Ciências Ambientais, em três opções. (1) Analisar material, dizendo onde e como cadastrar produção, atividade ou ideia (artigo, cartilha, curso, parecer, evento, projeto, disciplina, orientação, banca, produto educacional etc.), com enquadramento Capes (bibliográfica x PTT, eixos, aderência). (2) Criar XML de importação, a partir do XML ou ZIP do Lattes e do que falta lançar (um arquivo ou uma pasta inteira de comprovantes), com pré-diff do que já está no currículo, plano aprovado pelo docente e validação pela DTD do CNPq. (3) Analisar a aderência do currículo à área e o que corrigir. Use sempre que acionarem a skill sem dizer o que querem, anexarem material, certificado, lista de produções, pasta de comprovantes, assentamento funcional do SouGov ou XML/ZIP do Lattes, ou perguntarem "onde lanço isso?", "isso é PTT?", "gera o XML", "como importo no Lattes?", "meu currículo serve para a APCN?", mesmo sem citar a palavra Lattes.
 ---
 
-# Lattes para APCN: onde cadastrar cada coisa
+# Lattes para APCN
 
-Esta skill transforma o conhecimento das Oficinas Lattes (Priscila Tavares, 15 out 2026 e 26 out 2026) em orientação prática: dado um material ou ideia, dizer em qual menu do Lattes entra, como preencher, como a Capes enxerga e o que falta para ele contar.
+Esta skill transforma o conhecimento das Oficinas Lattes (Priscila Tavares, 15 out 2026 e 26 out 2026) em orientação prática: dado um material ou ideia, dizer em qual menu do Lattes entra, como preencher, como a Capes enxerga e o que falta para ele contar. Também gera o arquivo de importação e avalia o currículo em relação à proposta.
 
 Por que isso importa: o Lattes separa **atividades** (o que faço) de **produtos** (o que produzo) e cada menu carrega um perfil que a Capes usa na avaliação. Produto lançado no menu errado perde a classificação (extensão, inovação, PTT) e não é considerado pelos avaliadores. A maioria dos docentes lança tudo em "Produções" e deixa de registrar o que mais pesa na APCN.
+
+## Primeiro contato: menu
+
+Se o pedido já disser o que a pessoa quer, siga direto para a opção correspondente; repetir o menu só atrasa. Se a skill foi apenas acionada, ou o pedido não permite escolher, apresente o menu, usando a ferramenta de perguntas do ambiente quando houver ou uma lista numerada:
+
+> Como você quer usar a skill?
+> 1. **Enviar um material para análise:** digo onde e como cadastrar no Lattes.
+> 2. **Criar o XML para importação no Lattes:** você envia o seu currículo e o que falta lançar (pode ser uma pasta com tudo); vejo o que já está lá, monto um plano e, com a sua aprovação, gero o arquivo.
+> 3. **Analisar o seu currículo:** vejo o quanto ele é aderente à área da APCN e o que deveria ser corrigido.
+
+Como decidir sem perguntar:
+
+| O pedido traz | Opção |
+|---|---|
+| Material, link ou dúvida sobre onde lançar | 1 |
+| "gerar XML", "importar no Lattes", ou XML/ZIP com a lista do que incluir | 2 |
+| Pasta ou muitos comprovantes para atualizar o currículo | 2 |
+| "revise meu Lattes", "serve para a APCN?", "o que corrigir?" | 3 |
+| Só o XML/ZIP do Lattes, sem dizer o que quer | Pergunte: 2 ou 3 |
+
+Depois da opção, pergunte a área, salvo se já estiver clara: **Ensino** (Área 46) ou **Ciências Ambientais**. A skill serve a qualquer docente dessas áreas, e o corpo docente das propostas ainda está em avaliação: não presuma que a pessoa integra uma proposta. O enquadramento depende disso, então não copie regra de uma área para a outra. Leia o perfil em `references/apcn-ensino.md` ou `references/apcn-ciencias-ambientais.md` nas opções 2 e 3 e, na opção 1, quando a aderência importar: a área de concentração e as linhas orientam a análise, sem exigir vínculo com projeto da proposta.
+
+Transcrição de voz pode trocar "Lattes" por "LaTeX" e "APCN" por "PCN". Neste contexto, leia como Lattes e APCN.
+
+## Opção 2: criar o XML de importação
+
+Leia `references/importacao-xml.md` antes de começar. O docente aprova antes de qualquer arquivo ser gerado, porque o lançamento vai para um currículo oficial sob o nome dele.
+
+1. **Receber o currículo.** Peça o XML ou o ZIP baixado do Lattes, com o aviso de privacidade. Rode `inventario` para saber o que já existe.
+2. **Receber o que incluir.** Materiais, certificados, lista, planilha, descrição ou uma pasta inteira. Para pasta, ZIP de comprovantes ou muitos anexos, siga a seção "Pasta com vários arquivos" da referência: catalogar, conferir, ler por lotes. Se o docente enviou só o currículo, mostre os blocos com lacunas em relação à área, ofereça a busca pelo ORCID e pergunte o que ele tem para lançar: o XML revela o que já está lá, não o que foi feito fora dele.
+3. **Classificar cada item** com o fluxo da opção 1 (menu, tipo, enquadramento Capes), completar dados vazios pelo DOI quando houver e rodar o pré-diff (`comparar`), que separa o que é novo do que já está no currículo.
+4. **Apresentar o plano** no modelo da referência: entra no XML; confirme se é novo; lançar na tela; corrigir na tela; não incluir; não lido; perguntas. Pare e espere a aprovação.
+5. **Gerar.** Com a aprovação, grave `plano.json`, rode `gerar --simular`, resolva problemas e duplicatas com o docente, gere o arquivo de teste com 1 item e o arquivo com os demais e rode `validar` nos dois.
+6. **Entregar** os arquivos, o que ficou de fora e as instruções de importação. Deixe claro o que não foi confirmado: a skill valida contra a DTD, mas só o Lattes confirma o aceite.
+
+O gerador cobre toda a DTD, exceto endereço e dados pessoais, recusados de propósito. Passar na validação não garante importação: produções têm relato de importação parcial, e dados gerais (atuação, projetos, disciplinas, formação, resumo) não têm nenhum. Para esses, recomende a tela e só gere com risco aceito pelo docente. A referência lista também o que a DTD não contempla.
+
+A importação acrescenta itens e não corrige o que já existe. Quem pede "XML com dados corrigidos" precisa saber disso; as correções vão para a lista "Corrigir na tela".
+
+## Opção 3: analisar o currículo
+
+Leia `references/revisao-aderencia.md`. Extraia os dados com `inventario` (sem abrir o XML bruto, que tem CPF e endereço) e cruze com a área de concentração, as linhas e as regras da área. Ao final, ofereça levar os itens novos para a opção 2.
+
+Se o vínculo não mostrar a trajetória de progressão ou as portarias, indique baixar o **Assentamento Funcional Digital** no SouGov.br, em Serviços Disponíveis > Todos os Serviços (`references/assentamento-funcional.md`). Se as progressões não aparecerem no arquivo, oriente procurar a Gestão de Pessoas do campus. Reconheça esse ZIP se chegar por qualquer opção: arquivos `Documento_<número>-<CÓDIGO>-<ano>.pdf`. Traz dados pessoais e de terceiros, então só o script o abre.
+
+## Opção 1: analisar material
+
+O restante deste arquivo descreve essa opção, cuja classificação também serve às opções 2 e 3.
 
 ## Contexto padrão
 
@@ -109,4 +157,4 @@ Quando o docente descreve algo que ainda vai fazer, oriente como **desenhar a a�
 
 ## Limites
 
-A skill orienta; não acessa o Lattes nem edita o currículo. Menus e nomes de campos do Lattes mudam; confirme na tela do currículo. Critérios de estrato e a ficha do quadriênio 2025-2028 ainda estão em implantação, segundo a própria especialista. As duas oficinas têm divergências (lista de PTT de Ensino, estratos, pesos do Quesito 3); elas estão marcadas em `references/ensino.md` seção 13 e não devem ser resolvidas por invenção. Para casos complexos, a especialista oferece consultoria individual (contatos no último slide da oficina).
+A skill orienta e prepara arquivos; não acessa o Lattes nem altera o currículo: quem importa e salva é o docente. Menus e nomes de campos do Lattes mudam; confirme na tela do currículo. Critérios de estrato e a ficha do quadriênio 2025-2028 ainda estão em implantação, segundo a própria especialista. As duas oficinas têm divergências (lista de PTT de Ensino, estratos, pesos do Quesito 3); elas estão marcadas em `references/ensino.md` seção 13 e não devem ser resolvidas por invenção.

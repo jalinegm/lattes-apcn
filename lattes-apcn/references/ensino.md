@@ -227,7 +227,7 @@ Se indicar a organização como destaque, mas só tiver cadastrado a docência, 
 
 ### 6.4 FIC, EPT e cursos presenciais
 
-- **FIC (Formação Inicial e Continuada)** é comum nos institutos federais; no IFFar, mínimo de 20 h e registro no SISTEC [Oficina 26 out].
+- **FIC (Formação Inicial e Continuada)** é comum nos institutos federais. No Lattes vale a regra geral de curso: **4 h ou mais** [Oficina 26 out].
 - Curso FIC **presencial** não precisa estar depositado em Zenodo/EduCAPES se já está registrado na instituição e é rastreável (site, notícia, página institucional).
 - O que se deposita são os **subprodutos**: cartilha, manual, apostila, metodologia.
 - O curso em si pode ser lançado em Curso de curta duração ministrado, com o link da página institucional.
@@ -517,7 +517,7 @@ Esses pesos são da oficina de 26 out para a Área 46. A tabela de `avaliacao-ca
 4. A banca está no menu Bancas e não foi confundida com orientação?
 5. A supervisão está em Treinamento, não em Estágio?
 6. O curso está separado em organização, docência e criação quando for o caso?
-7. O curso tem 4 h ou mais? Se FIC, tem registro institucional/SISTEC e link?
+7. O curso tem 4 h ou mais? Se FIC, tem registro institucional e link?
 8. O material tem menos de 50 páginas? É para curso de formação, não para a própria disciplina?
 9. O material é para professor/profissional (Produções) ou para aluno/comunidade (Educação e Popularização)?
 10. Produto/processo educacional está em Processos ou técnicas, com natureza pedagógica/educacional (conferir rótulo na tela)?
